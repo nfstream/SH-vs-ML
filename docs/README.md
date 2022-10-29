@@ -40,7 +40,7 @@ Heuristic algorithms seem to perform better on data sets of predominantly numeri
 Uncovering hidden patterns and relationships within the datasets can certainly help determine actionable steps to maximize anomaly detection efficacy. 
 However, further study is needed to develop systematic methodology selection strategies operating reliably in a wide variety of use cases.
 
-[^1]: Please let us know if any links are unavailable via a repository issue.
+[^1]: Please let us know if any links are unavailable via a [repository issue](https://github.com/nfstream/SH-vs-ML/issues).
 
 ## Additional findings
 
