@@ -1,1 +1,2 @@
 docs/html/*.html filter=lfs diff=lfs merge=lfs -text
+docs/html/MLS.html filter=lfs diff=lfs merge=lfs -text
