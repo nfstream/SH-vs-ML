@@ -9,3 +9,7 @@ curl -X POST \
 -d '{"operation": "download", "transfer": ["basic"], "objects": [{"oid": "1d0a025e67ad8cdeb26ed0d38ce4be598b23ffa66cfe6c4a413c6a75fd08a936", "size": 121911104}]}' \
 https://github.com/nfstream/SH-vs-ML.git/info/lfs/objects/batch
 ```
+
+<!--- For more info on retreiving LFS files see:
+https://gist.github.com/fkraeutli/66fa741d9a8c2a6a238a01d17ed0edc5
+--->
