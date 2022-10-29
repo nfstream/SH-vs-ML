@@ -1,4 +1,6 @@
 
+# Simple Heuristics as a Viable Alternative to Machine Learning-based Anomaly Detection in Industrial IoT
+
 ## Overview
 
 This is a supporting website for the manuscript entitled **Simple Heuristics as a Viable Alternative to Machine Learning-based Anomaly Detection in Industrial IoT** submitted to the IEEE IoT Magazine. 
