@@ -39,3 +39,15 @@ Uncovering hidden patterns and relationships within the datasets can certainly h
 However, further study is needed to develop systematic methodology selection strategies operating reliably in a wide variety of use cases.
 
 [^1]: Please let us know if any links are unavailable via a repository issue.
+
+## Additional findings
+
+The experiments have shown that using AE for multivariate anomaly detection attains satisfactory results independent of the data domain. Nevertheless, statistical or probabilistic heuristics were shown as an excellent alternative to outperform deep learning algorithms in industrial multivariate time series. In resource-limited systems — such as computers on the plant floor — opting for these may be beneficial as they offer fast calibration and quick decision-making due to their lower empirical complexity.
+
+Overall, the heuristic algorithms emerged efficient for discrete detections, such as hardware failures, as long as the detection case is simple enough to be implemented algorithmically. They outperformed the AE on several datasets while depending less on the number of samples. In contrast, the AE effectiveness (in terms of both accuracy and time complexity) greatly depended on the number of training samples. When training with a small training set, its low accuracy can be addressed by hyperparameter tuning (i.e., layer depth, bath size, and epoch number). However, it must be noted that these parameters highly impact the relationship between computational time requirements and accuracy. While increasing these hyperparameters can improve accuracy, however, at the expense of growing timeliness.
+
+The deep learning approach appears more suitable for more sophisticated anomalies with complex contexts where the interest measure behaves unpragmatically. However, its disadvantages outweigh its benefits for simpler abnormalities such as peak anomalies, mainly due to its need for a significant amount of system resources to process information beforehand. Preprocessing is a painstaking task requiring considerable time and training data. Additionally, if the application use case requires operating the AE in real-time, the performance enhancement achieved via larger batch sizes becomes either ineffective or introduces a delay in the detection.
+
+In conclusion, the findings made in this work imply that simple methods dominate the sophisticated multivariate time-series anomaly detection on the evaluated problem domains. 
+This certainly does not implicitly suggest that deep learning methods cannot deliver on their promise. They likely still perform better under specific conditions and problems. However, our findings provide substantial evidence that further study is needed to examine the performance of more elaborated methods to justify their usage. Beyond the scope of this present work, the findings emerging from our research can fuel future improvements in anomaly detection on time series.
+Further improving heuristic models may prove instrumental for industrial data analysis and the proliferation of intelligent IIoT solutions.
